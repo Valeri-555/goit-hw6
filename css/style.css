@@ -83,9 +83,6 @@ align-items: center;
     margin-left: 75px;
 }
 
-.item {
-    
-}
 
 .header-list .item + .item {
 margin-left: 40px;
@@ -277,9 +274,6 @@ margin-left: 24px;
 
 /* Our work in pictures */
 
-.works {
-    
-}
 
 .works-wrap {
     margin-bottom: 120px;
@@ -300,8 +294,7 @@ margin-left: 24px;
 .list-works .image-work + .image-work {
     margin-left: 24px;
 }
-.image-work {
-}
+
 
 /* Our Team */
 
@@ -398,8 +391,7 @@ margin-left: 24px;
 .customers {
     padding: 125px 0;
 }
-.customers-container {
-}
+
 .costomers-item {
   
     font-weight: 700;
@@ -468,10 +460,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
 .footer {
     background: var(--background-color);
     padding: 100px 0;
-}
-
-.footer-content{
-    
 }
 
 .logo-footer{
@@ -727,4 +715,47 @@ img {
 .icon-close {
     width: 8px;
     height: 8px;
+}
+
+/* Form */
+.modal-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;    
+    color: #2E2F42;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.line-name {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 5px;
+}
+
+.form-icon {
+    width: 18px;
+    height: 24px;
+}
+
+.input-wrap {
+
+}
+.form-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px;
+    margin-bottom: 10px ;
+}
+
+.form-input::placeholder {
+    color: rgba(117, 117, 117, 0.5);
 }

@@ -362,6 +362,77 @@
                     <use href="./img/icons.svg#icon-close"></use>
                 </svg>
             </button>
+
+            <!-- Form -->
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form action="" class="modal-form">
+                <div class="form-element">
+                    <label for="name"><span class="line-name">Name</span> 
+                        <div class="input-wrap">
+                            <input type="text" 
+                            class="form-input"
+                            name="fullname" 
+                            id="name" 
+                            placeholder="Enter your name"
+                            autofocus
+                            required/>
+                            <svg class="form-icon">
+                                <use href="./img/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-element">
+                    <label for="phone"><span class="line-name">Phone</span> 
+                        <div class="input-wrap">
+                        <input type="text" 
+                        name="phone" 
+                        class=""
+                        id="phone" 
+                        pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                        minlength="13"
+                        maxlength="13"
+                        placeholder="+380-96-111-11-11">
+                        <svg class="form-icon">
+                            <use href="./img/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </label>
+                </div>
+                <div class="form-element">
+                    <label for="email"><span class="line-name">Email</span> 
+                        <div class="input-wrap">
+                            <input type="email" 
+                            name="email"
+                            id="email"
+                            placeholder="example@mail.com"
+                            pattern="^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$">
+                            <svg class="form-icon">
+                                <use href="./img/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="form-element">
+                    <label for="comment"><span class="line-name">Comment</span>
+                        <textarea name="comment" 
+                            rows="5" 
+                            placeholder="Text input">
+                        </textarea>                
+                    </label>
+                </div>
+                <div>
+                    <input
+                        type="checkbox"
+                        id=""
+                        name=""
+                        class=""
+                        required/>
+                    <label for="" class="">
+                        <p>I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
+                </div>
+                <button type="submit" class="form-btn">Send</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
