@@ -365,17 +365,16 @@
             <p class="item-form">Leave your contacts and we will call you back</p>
             <form action="" class="modal-form">
                 <div class="form-element">
-                    <label for="name" class="name-row">Name
+                    <label for="name" class="name-row">Name</label>
                         <div class="form-group">
                             <input type="text" name="name" id="name" class="input-form" autofocus placeholder="your name">
                             <svg class="icon-form">
                                 <use href="./img/icons.svg#icon-person"></use>
                             </svg>
                         </div>
-                    </label>
                 </div>
                 <div class="form-element">
-                    <label for="phone" class="name-row">Phone
+                    <label for="phone" class="name-row">Phone</label>
                         <div class="form-group">
                             <input type="tel" name="phone" id="phone" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                 minlength="13"
@@ -384,10 +383,9 @@
                                 <use href="./img/icons.svg#icon-phone"></use>
                             </svg>
                         </div>
-                    </label>
                 </div>
                 <div class="form-element">
-                    <label for="name" class="name-row">Email
+                    <label for="name" class="name-row">Email</label>
                         <div class="form-group">
                             <input type="text" name="email" id="email" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                 minlength="13"
@@ -396,17 +394,14 @@
                                 <use href="./img/icons.svg#icon-email"></use>
                             </svg>
                         </div>
-                    </label>
                 </div>
                 <div class="form-element">
-                    <label for="comment" class="name-row">Comment
-                        <textarea name="comment" id="comment"  class="input-form" rows="6" placeholder="Text input"></textarea>
-                    </label>
+                    <label for="comment" class="name-row">Comment</label>
+                    <textarea name="comment" id="comment"  class="input-form" rows="6" placeholder="Text input"></textarea>
                 </div>
-                    <label for="chek-mark" class="chek-mark">I accept the terms and conditions of the <a href="#">Privacy Policy</a> 
-                        <input type="checkbox" name="accept" id="chek-mark">
-                    </label>
-                
+                        <input type="checkbox" name="accept" id="chek-mark" class="chek-mark visually-hidden">
+                        <label for="chek-mark" class="chek-mark-label">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+                        
                 <button type="submit" class="button-submit submit-text ">Send</button>
             </form>
         </div>
