@@ -717,6 +717,16 @@ img {
     height: 8px;
 }
 
+.item-form {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-top: 70px;
+}
+
 .modal-form {  
     
 }
@@ -730,16 +740,6 @@ img {
         margin-bottom: 5px;
 }
 
-.item-form {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-top: 70px;
-}
-
 .input-form {
     width: 100%;
     height: 40px;
@@ -749,6 +749,16 @@ img {
     margin-bottom: 10px;
 }
 
+.icon-form {
+    position: absolute;
+    width: 18px;
+    height: 24px;
+}
+
+.form-group {
+    position: relative;
+}
+
 .input-form::placeholder {
     font-weight: 400;
         font-size: 12px;
@@ -756,10 +766,7 @@ img {
         letter-spacing: 0.04em;
         color: rgba(117, 117, 117, 0.5);
 }
-.icon-form {
-    width: 18px;
-    height: 24px;
-}
+
 
 .chek-mark {
     font-weight: 400;
