@@ -365,29 +365,35 @@
             <p class="item-form">Leave your contacts and we will call you back</p>
             <form action="" class="modal-form">
                 <label for="name" class="name-row">Name
-                    <input type="text" name="name" id="name" class="input-form" autofocus placeholder="your name">
-                    <svg class="icon-form">
-                        <use href="./img/icons.svg#icon-person"></use>
-                    </svg>
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="input-form" autofocus placeholder="your name">
+                        <svg class="icon-form">
+                            <use href="./img/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
                 </label>
                 <label for="phone" class="name-row">Phone
-                    <input type="tel" name="phone" id="phone" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-                minlength="13"
-                maxlength="13" placeholder="+38(000)111-11-11">
-                    <svg class="icon-form">
-                        <use href="./img/icons.svg#icon-phone"></use>
-                    </svg>
+                    <div class="form-group">
+                        <input type="tel" name="phone" id="phone" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                            minlength="13"
+                            maxlength="13" placeholder="+38(000)111-11-11">
+                        <svg class="icon-form">
+                            <use href="./img/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
                 </label>
                 <label for="name" class="name-row">Email
-                    <input type="text" name="email" id="email" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-                minlength="13"
-                maxlength="13" placeholder="example@gmail.com">
-                    <svg class="icon-form">
-                        <use href="./img/icons.svg#icon-email"></use>
-                    </svg>
+                    <div class="form-group">
+                        <input type="text" name="email" id="email" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                            minlength="13"
+                            maxlength="13" placeholder="example@gmail.com">
+                        <svg class="icon-form">
+                            <use href="./img/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
                 </label>
                 <label for="comment" class="name-row">Comment
-                <textarea name="comment" id="comment" rows="10" class="input-form" placeholder="Text input"></textarea>
+                <textarea name="comment" id="comment"  class="input-form" rows="6" placeholder="Text input"></textarea>
                 </label>
                 <label for="chek-mark" class="chek-mark">I accept the terms and conditions of the <a href="#">Privacy Policy</a> 
                     <input type="checkbox" name="accept" id="chek-mark">
