@@ -83,9 +83,7 @@ align-items: center;
     margin-left: 75px;
 }
 
-.item {
-    
-}
+
 
 .header-list .item + .item {
 margin-left: 40px;
@@ -277,10 +275,6 @@ margin-left: 24px;
 
 /* Our work in pictures */
 
-.works {
-    
-}
-
 .works-wrap {
     margin-bottom: 120px;
 }
@@ -299,8 +293,6 @@ margin-left: 24px;
 
 .list-works .image-work + .image-work {
     margin-left: 24px;
-}
-.image-work {
 }
 
 /* Our Team */
@@ -398,8 +390,7 @@ margin-left: 24px;
 .customers {
     padding: 125px 0;
 }
-.customers-container {
-}
+
 .costomers-item {
   
     font-weight: 700;
@@ -468,10 +459,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
 .footer {
     background: var(--background-color);
     padding: 100px 0;
-}
-
-.footer-content{
-    
 }
 
 .logo-footer{
