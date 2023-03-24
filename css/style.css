@@ -810,6 +810,7 @@ img {
 .chek-mark:checked + .chek-mark-label::before {
     background: #404BBF;
     border: 1.25px solid #404BBF;
+    background-image:url(../img/icons.svg);
 }
 
 .chek-mark-label::before {
