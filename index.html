@@ -367,7 +367,7 @@
                 <div class="form-element">
                     <label for="name" class="name-row">Name</label>
                         <div class="form-group">
-                            <input type="text" name="name" id="name" class="input-form" autofocus placeholder="your name">
+                            <input type="text" name="name" id="name" class="input-form" autofocus required placeholder="your name">
                             <svg class="icon-form">
                                 <use href="./img/icons.svg#icon-person"></use>
                             </svg>
@@ -376,7 +376,7 @@
                 <div class="form-element">
                     <label for="phone" class="name-row">Phone</label>
                         <div class="form-group">
-                            <input type="tel" name="phone" id="phone" class="input-form" pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                            <input type="tel" name="phone" id="phone" class="input-form" required pattern="[\+]\d{2}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
                                 minlength="13"
                                 maxlength="13" placeholder="+38(000)111-11-11">
                             <svg class="icon-form">
@@ -399,12 +399,14 @@
                     <label for="comment" class="name-row">Comment</label>
                     <textarea name="comment" id="comment"  class="input-form" rows="6" placeholder="Text input"></textarea>
                 </div>
-                        <input type="checkbox" name="accept" id="chek-mark" class="chek-mark visually-hidden">
-                        <label for="chek-mark" class="chek-mark-label">
-                            <svg class="icon-check">
-                                <use href="./img/"></use>
-                            </svg>
-                            I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
+                <div class="accept">
+                    <input type="checkbox" name="accept" id="chek-mark" class="chek-mark visually-hidden">
+                    <label for="chek-mark" class="chek-mark-label">
+                            <p class="accept-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
+                            </span>
+                    </label>
+                </div>
+                        
                         
                 <button type="submit" class="button-submit submit-text ">Send</button>
             </form>
