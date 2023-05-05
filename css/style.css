@@ -820,10 +820,13 @@ img {
 .form-icon {
     width: 18px;
     height: 24px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 .input-wrap {
-
+position:  relative;
 }
 .form-input {
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -832,6 +835,7 @@ img {
     height: 40px;
     padding: 10px 15px;
     margin-bottom: 10px ;
+    padding-left: 45px
 }
 
 .form-input::placeholder {
@@ -844,4 +848,52 @@ img {
     resize: none;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+}
+
+.comment::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+}
+.accept-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #757575;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.accept-link {
+    color: #4D5AE5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.accept-wrop {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.checkbox {
+    margin-right: 8px;
+}
+
+.form-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-input:focus {
+border: 1px solid #4D5AE5;
+
 }
